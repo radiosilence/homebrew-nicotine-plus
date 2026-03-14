@@ -33,3 +33,4 @@ brew untap radiosilence/nicotine-plus
 - Requires macOS Ventura or later
 - Supports both Apple Silicon and Intel Macs
 - Builds are updated nightly from the [nicotine-plus](https://github.com/radiosilence/nicotine-plus) fork
+- The cask automatically removes the macOS quarantine attribute (`xattr -cr`) after installation, as the app is not notarized
