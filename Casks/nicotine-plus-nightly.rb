@@ -15,7 +15,7 @@ cask "nicotine-plus-nightly" do
   desc "Graphical client for the Soulseek peer-to-peer network (nightly build)"
   homepage "https://github.com/radiosilence/nicotine-plus"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :sonoma
 
   app "Nicotine+.app"
 
