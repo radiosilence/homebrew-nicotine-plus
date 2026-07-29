@@ -1,14 +1,14 @@
 cask "nicotine-plus-nightly" do
-  version "20260726"
+  version "20260729"
 
   on_arm do
-    sha256 "57f8009441d41de69c0bce22e17a2645736f9a01d21ca35a6bf94d3f5def0b4a"
-    url "https://github.com/radiosilence/nicotine-plus/releases/download/nightly-20260726/Nicotine+-3.4.0.dev1-arm64-20260726.dmg"
+    sha256 "a43467c66c69bfb1dd0d721f5cf7921701c6caf2d7e64f19676ad476dfc7ff89"
+    url "https://github.com/radiosilence/nicotine-plus/releases/download/nightly-20260729/Nicotine+-3.4.0.dev1-arm64-20260729.dmg"
   end
 
   on_intel do
-    sha256 "b67c7b2c79d3e290b3d03e6d0bfbe5ffec5794d60461c8dae153021202fbc49b"
-    url "https://github.com/radiosilence/nicotine-plus/releases/download/nightly-20260726/Nicotine+-3.4.0.dev1-x86_64-20260726.dmg"
+    sha256 "6d201fb159246c9a02b9f6c934dcff24b227a5d0b8d9d0ed673823ea0a24bfaf"
+    url "https://github.com/radiosilence/nicotine-plus/releases/download/nightly-20260729/Nicotine+-3.4.0.dev1-x86_64-20260729.dmg"
   end
 
   name "Nicotine+"
